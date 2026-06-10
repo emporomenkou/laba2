@@ -1,0 +1,41 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
+
+h1 {
+    font-size: 60px;
+    color: #4C5866;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/*header*/
+
+.header-logo{
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bumaga-left-text{
+    
+}
