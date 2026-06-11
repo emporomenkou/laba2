@@ -3,9 +3,13 @@
     margin: 0 auto;
     font-weight: 400;
     background-color: #FFFFFF;
+
 }
 
-
+.text{
+    font-size: 18px;
+    color: #85859B;        
+}
 h1 {
     font-size: 60px;
     color: #4C5866;
@@ -37,5 +41,5 @@ h3 {
 }
 
 .bumaga-left-text{
-    
+
 }
