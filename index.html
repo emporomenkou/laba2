@@ -10,46 +10,78 @@
     <title>Simple</title>
 </head>
 <body>
-    <header class="container">
-        <img src="assets/simplelogo.svg" alt="Simple logo" class="header-logo">
-        <div class="header-right">
-            <div class="header-links">
-                <a href="/">Продукция</a>
-                <a href="/">Материалы</a>            
-                <a href="/">О нас</a>            
-                <a href="/">Контакты</a>
-            </div>
-            <div class="header-buttons">
-                <button class="header-button">
-                    <span>
-                        <img src="assets/Search.svg" alt="search">
-                    </span>
+    <header>
+        <div class="header container">
+            <img src="assets/simplelogo.svg" alt="Simple logo" class="header-logo">
+            <div class="header-right">
+                <nav class="header-links">
+                    <ul class="header-links-list">
+                        <li class="header-link"><a href="/">Продукция</a></li>
+                        <li class="header-link"><a href="/">Материалы</a> </li>           
+                        <li class="header-link"><a href="/">О нас</a></li>            
+                        <li class="header-link"><a href="/">Контакты</a> </li>                   
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button class="header-button">
+                        <span><img src="assets/Search.svg" alt="search"></span>
+                    </button>
+                    <button class="header-button">
+                        <span><img src="assets/log_in.svg" alt="Log in"></span>
+                    </button>                
+                </div>
+                <button class="header-mobile-button">
+                    <span><img src="assets/list.svg" alt="Menu"></span>                
                 </button>
-                <button class="header-button">
-                    <span>
-                        <img src="assets/log_in.svg" alt="Log in">
-                    </span>
-                </button>                
-            </div>
-            <button class="header-mobile-button">
-                <span>
-                    <img src="assets/list.svg" alt="Log in">
-                </span>                
-            </button>
-        </div>  
+            </div>              
+        </div>
+
     </header>
 
     <main>
         <section class="bumaga">
             <div class="bumaga-left">
-                <h1>Простые вещи. Из бумаги</h1>
+                <h1>Простые вещи.<br> Из бумаги</h1>
                 <p class="bumaga-left-text text">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
-                <a href="/">Каталог</a>
+                <a href="/" class="fiol-button">Каталог</a>
             </div>
-            <div class="bumaga-right">
-                <img src="assets/chmobumaga.png" alt="svertok">
+            <div class="bumaga-right"></div>
+        </section>
+        <section class="belizna">
+            <div class="belizna-container">
+                <div class="belizna-results">
+                    <div class="belizna-result">
+                        <img src="assets/belizna_v1.png" alt="v1">
+                        <div class="belizna-result-text-block">
+                            <h4>V.1</h4>
+                            <p class="belizna-result-text text">Результат вашего обучения</p>
+                        </div>
+                    </div>
+                    <div class="belizna-result">
+                        <img src="assets/belizna_v2.png" alt="v2">
+                        <div class="belizna-result-text-block">
+                            <h4>V.2</h4>
+                            <p class="belizna-result-text text">Результат вашего обучения</p>
+                        </div>
+                    </div>                
+                    <div class="belizna-result">
+                        <img src="assets/belizna_v3.png" alt="v3">
+                        <div class="belizna-result-text-block">
+                            <h4>V.3</h4>
+                            <p class="belizna-result-text text">Результат вашего обучения</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="belizna-bottom">
+                    <img src="assets/big_belizna.png" alt="folder">
+                    <div class="belizna-bottom-text-block">
+                        <h2>Максимальная белизна</h2>
+                        <p class="belizna-bottom-text text">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.<br>
+                                                            Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+                        </p>
+                    </div>
+                </div>
             </div>
-
         </section>
     </main>
 </body>
