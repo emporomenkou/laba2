@@ -5,7 +5,9 @@
     padding: 0;
     margin: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #FFFFFF;    
@@ -503,6 +505,7 @@ br {
 .partners img:not(:last-child){
     margin-right: 30px;
 }
+
 
 @media (max-width: 1109px) {
     .partners-container{
